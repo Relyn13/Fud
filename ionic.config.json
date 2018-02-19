@@ -1,0 +1,8 @@
+{
+  "name": "FudThree",
+  "app_id": "f9558ce6",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
