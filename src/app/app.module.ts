@@ -21,8 +21,9 @@ import { FIREBASE_CONFIG } from './firebase.config';
   ],
   imports: [
     BrowserModule,
-    AngularFireModule.initializeApp(FIREBASE_CONFIG),
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(FIREBASE_CONFIG)
+    
   ],
   bootstrap: [IonicApp],
   entryComponents: [

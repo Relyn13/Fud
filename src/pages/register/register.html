@@ -17,9 +17,9 @@
 
   <ion-item>
     <ion-label floating>Username</ion-label>
-    <ion-input type="text"></ion-input>
+    <ion-input type="text" [(ngModel)]="user.name"></ion-input>
   </ion-item>
 
-  <button ion-button block name="button">Add</button>
+  <button ion-button block name="button" (click)="registerUser(user)">Add</button>
 
 </ion-content>
